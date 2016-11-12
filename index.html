@@ -92,6 +92,7 @@
 
                       <!-- Contact Modal -->
 
+                      <section>
                         <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                           <div class="modal-dialog">
                             <div class="modal-content">
@@ -101,28 +102,40 @@
                               </div>
                               <div class="modal-body">
                                 <form action="https://formspree.io/your@email.com" method="POST" class="form-horizontal col-sm-12">
-                                  <div class="form-group">
-                                    <label><span>Name</span></label>
-                                    <input type="text" placeholder="Your Name" name="name" >
+
+                                  <div class="contact-info-group">
+
+                                    <label><span>First Name</span>
+                                    <input type="text" placeholder="John" name="name"></label>
+
+                                    <label><span>Last Name</span>
+                                    <input type="text" placeholder="Smith" name="name"></label>
+
+
+                                    <label><span>Email</span>
+                                    <input type="text" placeholder="user@email.com" name="name"></label>
+
+                                    <label><span>Phone</span>
+                                    <input type="text" placeholder="123-456-789" name="name"></label>
+
                                   </div>
-                                  <div class="form-group">
-                                    <label><span>Email</span></label>
-                                    <input type="text" placeholder="Your Email" name="name">
+
+                                    <label><span class="text-area">How Can We Help</span></label>
+                                    <textarea placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></label>
+
+                                  <div class="submit-button">
+                                    <input type="submit" value="Send">
                                   </div>
-                                  <div class="form-group">
-                                    <label><span>Phone</span></label>
-                                    <input type="text" placeholder="Your Number" name="name">
-                                  </div>
-                                  <div class="form-group">
-                                    <label><span>How Can We Help</span></label>
-                                    <textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea>
-                                  </div>
-                                  <input type="submit" value="Send">
+
                                 </form>
+
                               </div>
+
                             <div class="modal-footer">
                               <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
                             </div>
+
+                          </section>
 
                       <!-- ./Contact Modal -->
 
