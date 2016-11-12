@@ -177,39 +177,39 @@ p.copyright {
 
 
 #myModal {
+  max-width: 600px
   margin: 0 auto 50px;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
   color: #000
 }
 
 #myModalLabel {
   font-size:30px;
+  font-weight: 700;
 }
 
-#myModal label {
+.contact-info-group label {
+  color: blue;
   display:block;
-  margin: 20px 20px auto 2%;
-  float: left;
-  width: auto;
-  margin-right: 2%;
+  float:center;
+  width: 300px;
 }
 
-#myModal text-area {
+.contact-info-group span {
+  float: left;
+}
+
+span.text-area {
+  margin: 50px;
   color: red;
 }
 
-#myModal span {
-  display: block;
-     }
-
-#myModal .text-area {
-  margin-top: 50px;
+textarea {
   width: 100%;
   height: 10em;
 }
 
-#myModal submit-button {
+submit-button {
   margin-top: 50px;
 }
 
